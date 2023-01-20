@@ -26,6 +26,7 @@ body{
     margin: 0 20px;
     display: flex;
     border-radius: 50px;  
+  
 }
 
 .nav-01 i{
@@ -387,3 +388,126 @@ body{
 .cont-02 .grid-01 .grid-child-01 .box-01 .imgs .border-img{
     width: 100%;
 }
+
+
+/*-- grid 02 --------------------------------*/
+.cont-02 .grid-02{
+    margin: 20px 0px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.cont-02 .grid-02 .grid-child-02{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-white);
+    padding: 15px;
+}
+
+.cont-02 .grid-02 .grid-child-02 .box-01{
+    display: flex;
+    width: 100%;
+}
+
+.cont-02 .grid-02 .grid-child-02 .box-01 .container-01{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cont-02 .grid-02 .grid-child-02 .box-01 .container-01 i{
+    margin-bottom: 15px;
+    font-size: 5rem;
+    color: var(--backgroud);
+}
+
+.cont-02 .grid-02 .grid-child-02 .box-01 .container-01 .files{
+    color: var(--text-blue);
+    margin-top: 10px;
+    font-weight: 600;
+}  
+
+.cont-02 .grid-02 .grid-child-02 .box-01 .container-02{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cont-02 .grid-02 .grid-child-02 .two-p{
+    color: var(--text-blue);
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.gigabit{
+    color: var(--text-blue);
+    font-weight: 700;
+}
+
+.files{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+/*-- grid 03 --------------------------------*/
+.cont-02 .flex-03{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 15px;
+    padding: 20px;
+    overflow: auto;
+    max-height: 270px;
+}
+
+.flex-03 .flex-child-03{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-03 .flex-child-03 .last{
+    align-items: flex-start;
+}
+
+.flex-03 .flex-child-03 .menber{
+    align-items: center;
+}
+
+.flex-03 .flex-child-03 .pontos{
+    align-items: flex-end;
+}
+
+.flex-03 .flex-child-03 .titulo{
+    color: var(--files-grey);
+    margin: 10px 0;
+}
+
+.flex-03 .flex-child-03 .grid-02-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flex-03 .flex-child-03 .grid-02-flex .opacity-0{
+    opacity: 0;
+}
+
+.flex-03 .flex-child-03 .cont-mp4, .text-cont-03{
+    color: var(--text-blue);
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+
+/*-- grid 03 arquivos --------------------------------*/
