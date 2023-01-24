@@ -511,3 +511,38 @@ body{
 
 
 /*-- grid 03 arquivos --------------------------------*/
+.flex-03 .flex-child-03 .grid-02-flex .mp4{
+    margin-right: 10px;
+    background-color: #45a4fc;
+    padding: 10px 3px;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 0.8rem;
+}
+
+.flex-03 .flex-child-03 .grid-02-flex .zip{
+    margin-right: 10px;
+    background-color: #feaa47;
+    padding: 10px 3px;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 0.8rem;
+}
+
+.flex-03 .flex-child-03 .grid-02-flex .pdf{
+    margin-right: 10px;
+    background-color: #ec5858;
+    padding: 10px 3px;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 0.8rem;
+}
+
+.flex-03 .flex-child-03 .grid-02-flex .jpg{
+    margin-right: 10px;
+    background-color: #55c395;
+    padding: 10px 3px;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 0.8rem;
+}
