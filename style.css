@@ -263,6 +263,10 @@ body{
     color: var(--text-blue);
 }
 
+.recentes{
+    margin-top: 25px;
+}
+
 .cont-02 .h-01 i{
     font-size: 1.8em;
     cursor: pointer;
@@ -619,14 +623,7 @@ body{
     width: 100%;
 }
 
-.box-circle{
-    width: 100%;
-}
 
-.box-circle svg{
-    width: 100%;
-    height: 200px;
-}
 
 circle{
     position: absolute;
@@ -803,3 +800,29 @@ circle:nth-child(4){
     color: var(--color-white);
     cursor: pointer;
 }
+
+.att{
+    background-color: rgba(255, 30, 0, 0.767);
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: var(--color-white);
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.mais{
+    background-color: rgba(255, 30, 0, 0.767);
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: var(--color-white);
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+
